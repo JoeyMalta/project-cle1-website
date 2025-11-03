@@ -55,13 +55,13 @@ header a {
 }
 
 nav {
-    height: 10vh;
+    height: 7.5vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #3C4453;
-    border-bottom: 1px solid #2C323D;
+
 }
 
 .nav-logo {
@@ -228,6 +228,7 @@ footer .socials {
     width: 12vw;
     border-radius: 50%;
     margin-bottom: 1rem;
+    object-fit: cover;
 }
 
 .founder {
