@@ -270,12 +270,12 @@ footer .socials {
 
 }
 
-p {
-    /* font-size: 1.5rem; */
-}
+
 
 @media (width <=480px) {
-
+    .nav-logo {
+        width: 100%;
+    }
 
     header {
         margin-top: 45vw;
@@ -298,14 +298,16 @@ p {
     }
 
 
-
+    main {
+        height: 170vh;
+    }
 
 
     nav {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        
         height: 60vh;
         padding: 0;
         margin-bottom: 0vw;
@@ -321,7 +323,7 @@ p {
     }
 
     img.nav-logo {
-        padding-left: 0;
+        padding: 0;
         height: 50%;
     }
 
@@ -346,7 +348,7 @@ p {
     }
 
     .firstContainer {
-        height: 80vh;
+        height: auto;
         padding-top: 40vw;
     }
 
@@ -357,7 +359,7 @@ p {
     }
 
     .founders {
-        margin-top: 55vw;
+        
         margin-bottom: 6vw;
     }
 
@@ -384,17 +386,19 @@ p {
 
     .headerImg {
         margin: 0;
-        width: 300px;
-        height: 300px;
+        width: 70vw;
+        
         display: flex;
         justify-content: center;
     }
 
-    .headerImg img{
-        width: 85vw;
+    .firstContainer img{
+       width: 40vh;
+       height: 51.4vh;
     }
 
     .firstContainer {
+        height: 160vh;
         margin: 0;
         padding: 0;
         display: flex;
@@ -409,6 +413,11 @@ p {
         flex-direction: column;
         align-items: center;
         text-align: center;        
+    }
+
+    .headerImg img {
+        width: 50vw;
+        height: 15vh;
     }
 
     .ourStory img {
@@ -434,8 +443,12 @@ p {
     }
 
     .founder img {
-        width: 40vw;
-        height: 40vw;
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .names {
+        font-size: 1.5rem;
     }
 
     
