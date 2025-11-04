@@ -86,6 +86,16 @@ nav {
     border: 1px solid #7d98e0;
 }
 
+header a:hover {
+    color: #7d98e0;
+    border: 2px solid #7d98e0;
+}
+
+.firstContainer a:hover {
+    color: #7d98e0;
+    border: 2px solid #7d98e0;
+}
+
 
 header {
     border-top: black solid 5px;
@@ -206,12 +216,21 @@ footer .socials {
     text-align: center;
 }
 
+.good {
+    transform: translateY(13vh);
+
+}
+
+.bad {
+    transform: translateX(2vw);
+}
+
 
 .ourStory {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 25px;
+    gap: 35px;
 }
 
 .founders {
@@ -256,8 +275,8 @@ p {
     header {
         margin-top: 45vw;
         height: 130vw;
-        padding-top: 85vw;
-        padding-bottom: 120vw;
+        padding-top: 13vw;
+        padding-bottom: 20vw;
 
     }
 
@@ -321,8 +340,11 @@ p {
     }
 
     .firstContainer {
-        height: 100vw;
-        padding-bottom: 50vw;
+        height: 80vh;
+        padding-top: 40vw;
+
+
+
     }
 
 
@@ -332,6 +354,7 @@ p {
     }
 
     .founders {
+        margin-top: 55vw;
         margin-bottom: 6vw;
     }
 }
