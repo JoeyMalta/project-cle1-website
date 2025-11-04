@@ -33,9 +33,14 @@ h6 {
 
 }
 
+p {
+    font-size: 1.2rem;
+}
+
 a {
     text-decoration: none;
     color: inherit;
+    font-size: 1.2rem;
 }
 
 header a {
@@ -61,7 +66,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #3C4453;
-
+    /* border-bottom: 5px solid #2C323D; */
 }
 
 .nav-logo {
@@ -98,7 +103,7 @@ header a:hover {
 
 
 header {
-    border-top: black solid 5px;
+    border-top:#262c39 solid 5px;
     border-bottom: black solid 5px;
     border-color: #2C323D;
     height: 89vh;
@@ -266,7 +271,7 @@ footer .socials {
 }
 
 p {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
 }
 
 @media (width <=480px) {
@@ -343,9 +348,6 @@ p {
     .firstContainer {
         height: 80vh;
         padding-top: 40vw;
-
-
-
     }
 
 
@@ -358,4 +360,83 @@ p {
         margin-top: 55vw;
         margin-bottom: 6vw;
     }
+
+    header {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        
+    }
+
+    .gripbuddyIntro {
+        padding: 100px 0 0 0;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        align-items: center;
+    }
+
+    .gripbuddyIntro p {
+        width: 100%;
+    }
+
+    .headerImg {
+        margin: 0;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .headerImg img{
+        width: 85vw;
+    }
+
+    .firstContainer {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ourStory {
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;        
+    }
+
+    .ourStory img {
+        transform: translate(0);
+       
+        width: 40vw;
+    }
+
+    .good {
+        transform: translate(0);
+        width: 30vw;
+    }
+
+    .bad {
+        transform: translate(0);
+        height: 40vh;
+        width: 40vw;
+    }
+
+    .founders {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .founder img {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    
 }

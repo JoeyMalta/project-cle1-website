@@ -25,7 +25,14 @@ h6 {
 }
 
 
+
+input, textarea {
+    font-size: 1.2rem;
+}
+
+
 a {
+    font-size: 1.2rem;
     text-decoration: none;
     
 }
@@ -44,7 +51,6 @@ body {
 
 }
 
-/* Navigation */
 nav {
     height: 7.5vh;
     width: 100%;
@@ -53,20 +59,8 @@ nav {
     align-items: center;
     background-color: #3C4453;
     border-bottom: 5px solid #2C323D;
-    font-size: 1.2rem;
 }
 
-/*
-nav {
-    height: 7.5vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #3C4453;
-
-}
-*/
 .nav-logo {
     padding-left: 10vw;
     height: 100%;
@@ -88,16 +82,6 @@ nav {
     color: #7d98e0;
     border: 1px solid #7d98e0;
 }
-
-.nav-top {
-    display: flex;
-    justify-content: space-between;
-    height: 10vh;
-    align-items: center;
-    border: solid 5px #2C323D;
-    background-color: #3C4453;
-}
-
 
 /* Forms */
 main {

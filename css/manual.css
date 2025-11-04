@@ -35,15 +35,13 @@ a {
 
 /* Navigation */
 nav {
-    padding-top: 0.1vw;
-    font-size: 1.2rem;
-    height: 8.5vh;
+    height: 7.5vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #3C4453;
-    border-bottom: 5px solid #2C323D;
+    /* border-bottom: 5px solid #2C323D; */
 }
 
 .nav-logo {
@@ -56,6 +54,7 @@ nav {
 }
 
 .nav-links a {
+    font-size: 1.2rem;
     padding: 10px 20px;
     color: #EBEBEB;
     text-decoration: none;
@@ -70,6 +69,7 @@ nav {
 
 /* Header */
 header {
+    border-top:#262c39 solid 5px;
     height: 60vh;
     width: 100%;
     background-color: #3C4453;
