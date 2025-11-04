@@ -27,16 +27,16 @@ h6 {
 
 a {
     text-decoration: none;
-    color: inherit;
+    
 }
 
 * {
     font-family: 'Outfit';
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
 }
 
 body {
-    font-size: 1.2rem;
+    
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
     padding: 0;
@@ -53,6 +53,7 @@ nav {
     align-items: center;
     background-color: #3C4453;
     border-bottom: 5px solid #2C323D;
+    font-size: 1.2rem;
 }
 
 /*

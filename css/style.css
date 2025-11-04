@@ -6,7 +6,7 @@
 }
 
 body {
-    font-size: 1.2rem;
+    
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
     padding: 0;
@@ -259,7 +259,7 @@ footer .socials {
 
 .names {
     text-align: center;
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
     color: #EBEBEB;
     margin-top: -0.5rem;
 
@@ -304,6 +304,7 @@ p {
         height: 60vh;
         padding: 0;
         margin-bottom: 0vw;
+        font-size: 1.2rem;
     }
 
     .footer-links {
