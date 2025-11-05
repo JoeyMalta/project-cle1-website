@@ -361,5 +361,6 @@ footer .socials {
 
     main {
         height: 160vh;
+        background-color: red;
     }
 }
