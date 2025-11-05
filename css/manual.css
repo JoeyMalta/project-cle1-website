@@ -104,7 +104,7 @@ header h1,h2 {
 
 /* Main */
 main {
-    height: 100vh;
+    height: 170vh;
     width: 100%;
     background-color: #3C4453;
     /* border-bottom: 2px solid white; */
@@ -114,41 +114,68 @@ main {
     position: relative;
 }
 
-.main-manual {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+main p,h2 {
+    font-size: 2rem;
 }
+
+.main-manual {
+    gap: 10vh;
+    height: 130vh;
+    width: 70%;
+   
+}
+
 
 .main-manual-one {
     display: flex;
-    width: 85%;
-    align-items: center;
-    padding-top: 40vh;
+    flex-direction: row;
+    width: 100%;
+    height: 60vh;
+    
+    margin-bottom: 10vh;
 }
 
-.main-manual-one div {
+.main-manual-text-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex: 1;
+
+}
+
+.main-manual-text {
+    height: 80%;
+    width: 80%;
+    text-align: center;
+
+}
+
+.main-manual-image-div-one {
+    flex:1;
+    display: flex;
+    justify-content: end;
+}
+
+.main-manual-image-div-two {
+    flex:1;
+    display: flex;
+    justify-content: start;
+}
+
+.main-manual-image {
+    height: 100%;
 }
 
 .main-manual-two {
     display: flex;
-    width: 85%;
-    align-items: center;
-    padding-bottom: 50vh;
-}
-
-.main-manual-two div {
-    flex: 1;
-}
-
-.manual-image {
-    height: 35vh;
-    width: 50%;
+    flex-direction: row;
+    width: 100%;
+    height: 60vh;
     
-    flex: 1;
 }
+
+
+
 
 /* Main Carousel */
 .carousel {
@@ -301,7 +328,7 @@ footer .socials {
         height: 30vh;
         
     }
-    main
+    
     .main-manual {
         height: 100vh;
         display: flex;
