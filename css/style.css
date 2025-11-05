@@ -41,6 +41,7 @@ a {
     text-decoration: none;
     color: inherit;
     font-size: 1.2rem;
+    transition: 0.2s;
 }
 
 header a {
@@ -66,7 +67,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #3C4453;
-    /* border-bottom: 5px solid #2C323D; */
+    
 }
 
 .nav-logo {
@@ -84,6 +85,7 @@ nav {
     text-decoration: none;
     border: 1px solid #EBEBEB;
     border-radius: 2%;
+    
 }
 
 .nav-links a:hover {

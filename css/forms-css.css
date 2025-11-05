@@ -34,6 +34,7 @@ input, textarea {
 a {
     font-size: 1.2rem;
     text-decoration: none;
+    transition: 0.2s;
     
 }
 
@@ -58,7 +59,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #3C4453;
-    border-bottom: 5px solid #2C323D;
+    border-bottom: 5px solid #262c39;
 }
 
 .nav-logo {
