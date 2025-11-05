@@ -8,8 +8,12 @@
     box-sizing: border-box;
 }
 
+p {
+    font-size: 1.2rem ;
+}
 body,
 main {
+    background-color: #3C4453;
     margin: 0;
     padding: 0;
     font-family: "Outfit", sans-serif;
@@ -25,10 +29,15 @@ h6 {
     font-weight: normal;
 }
 
+p {
+    color: white;
+}
+
 a {
     text-decoration: none;
     color: inherit;
     margin: 0;
+    transition: 0.2s;
 }
 
 /* Padding Website */
@@ -73,10 +82,10 @@ header {
     height: 60vh;
     width: 100%;
     background-color: #3C4453;
-    border-bottom: 2px solid white;
+    /* border-bottom: 2px solid white; */
 }
 
-header h1 {
+header h1,h2 {
     color: #EBEBEB;
     margin: 0;
 }
@@ -98,23 +107,47 @@ main {
     height: 100vh;
     width: 100%;
     background-color: #3C4453;
-    border-bottom: 2px solid white;
+    /* border-bottom: 2px solid white; */
     display: flex;
     justify-content: center;
     align-items: space-around;
     position: relative;
 }
 
+.main-manual {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 .main-manual-one {
     display: flex;
+    width: 85%;
+    align-items: center;
+    padding-top: 40vh;
+}
+
+.main-manual-one div {
+    flex: 1;
 }
 
 .main-manual-two {
     display: flex;
+    width: 85%;
+    align-items: center;
+    padding-bottom: 50vh;
+}
+
+.main-manual-two div {
+    flex: 1;
 }
 
 .manual-image {
     height: 35vh;
+    width: 50%;
+    
+    flex: 1;
 }
 
 /* Main Carousel */
@@ -234,4 +267,100 @@ footer .socials {
 .footer-socials a {
     padding: 0;
     margin: 0;
+}
+
+@media (width <=480px) {
+     .nav-links {
+        display: block;
+        padding: 0;
+    }
+
+    .nav-links a {
+        text-align: center;
+        display: block;
+        padding: 10px 40px;
+        margin: 20px 0;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        padding: 0;
+    }
+
+    img.nav-logo {
+        padding-left: 0;
+        height: 50%;
+        width: 100%;
+    }
+
+    .header-image {
+        height: 30vh;
+        
+    }
+    main
+    .main-manual {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        
+    }
+    .main-manual-one {
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+
+    .main-manual-one div {
+        order: 1;
+    }
+
+    .manual-image {
+        order: 2;
+    }
+
+    .main-manual-two {
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5vh 0 0 0;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-items {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .carousel {
+
+        margin: 0 0 0 0;
+        transform: translateY(-20vh);
+    }
+
+    main {
+        height: 160vh;
+        background-color: #3C4453;
+    }
 }
