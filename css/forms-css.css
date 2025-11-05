@@ -4,6 +4,7 @@
 /* Resets */
 body,
 main {
+    background-color:#3C4453;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -247,6 +248,7 @@ textarea {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 10vh;
     }
 
     img.footer-logo {
