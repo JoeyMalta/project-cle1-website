@@ -235,3 +235,49 @@ footer .socials {
     padding: 0;
     margin: 0;
 }
+
+@media (width <=480px) {
+     .nav-links {
+        display: block;
+        padding: 0;
+    }
+
+    .nav-links a {
+        text-align: center;
+        display: block;
+        padding: 10px 40px;
+        margin: 20px 0;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        padding: 0;
+    }
+
+    img.nav-logo {
+        padding-left: 0;
+        height: 50%;
+        width: 100%;
+    }
+    .main-manual {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-manual-one {
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-manual-two {
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+    }
+}
