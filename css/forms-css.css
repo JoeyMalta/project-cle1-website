@@ -4,7 +4,7 @@
 /* Resets */
 body,
 main {
-    background-color:#3C4453;
+    background-color: #3C4453;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -27,7 +27,8 @@ h6 {
 
 
 
-input, textarea {
+input,
+textarea {
     font-size: 1.2rem;
 }
 
@@ -36,7 +37,7 @@ a {
     font-size: 1.2rem;
     text-decoration: none;
     transition: 0.2s;
-    
+
 }
 
 * {
@@ -45,7 +46,7 @@ a {
 }
 
 body {
-    
+
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
     padding: 0;
@@ -115,6 +116,7 @@ input {
     border-radius: 5px;
     margin: 10px 0;
     padding: 10px 0;
+    padding-left: 1vw;
 }
 
 .form-down-row {

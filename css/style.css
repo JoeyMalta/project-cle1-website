@@ -6,7 +6,7 @@
 }
 
 body {
-    
+
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
     padding: 0;
@@ -67,7 +67,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #3C4453;
-    
+
 }
 
 .nav-logo {
@@ -85,7 +85,7 @@ nav {
     text-decoration: none;
     border: 1px solid #EBEBEB;
     border-radius: 2%;
-    
+
 }
 
 .nav-links a:hover {
@@ -105,14 +105,14 @@ header a:hover {
 
 
 header {
-    border-top:#262c39 solid 5px;
+    border-top: #262c39 solid 5px;
     border-bottom: black solid 5px;
     border-color: #2C323D;
     height: 89vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    font-size: 1.3rem;
     background-image: url('../images/Crickit_Image\ blur.png');
     background-size: cover;
 
@@ -125,6 +125,7 @@ header {
     width: 85vw;
     margin-left: 15vw;
     gap: 10px;
+    font-size: 1.3rem;
 
 }
 
@@ -309,7 +310,7 @@ footer .socials {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
+
         height: 60vh;
         padding: 0;
         margin-bottom: 0vw;
@@ -361,7 +362,7 @@ footer .socials {
     }
 
     .founders {
-        
+
         margin-bottom: 6vw;
     }
 
@@ -371,7 +372,7 @@ footer .socials {
         flex-direction: column;
         justify-content: center;
         gap: 30px;
-        
+
     }
 
     .gripbuddyIntro {
@@ -389,14 +390,14 @@ footer .socials {
     .headerImg {
         margin: 0;
         width: 70vw;
-        
+
         display: flex;
         justify-content: center;
     }
 
-    .firstContainer img{
-       width: 40vh;
-       height: 51.4vh;
+    .firstContainer img {
+        width: 40vh;
+        height: 51.4vh;
     }
 
     .firstContainer {
@@ -414,7 +415,7 @@ footer .socials {
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: center;        
+        text-align: center;
     }
 
     .headerImg img {
@@ -424,7 +425,7 @@ footer .socials {
 
     .ourStory img {
         transform: translate(0);
-       
+
         width: 40vw;
     }
 
@@ -453,5 +454,5 @@ footer .socials {
         font-size: 1.5rem;
     }
 
-    
+
 }
