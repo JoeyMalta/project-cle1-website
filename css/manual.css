@@ -390,4 +390,44 @@ footer .socials {
         height: 160vh;
         background-color: #3C4453;
     }
+
+    .main-manual-image {
+        width: 60vw;
+    }
+
+    .main-manual-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-manual-image-div-one {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-manual-image-div-two {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-manual-one {
+        display: flex;
+        gap: 10vh;
+        height: 150vh;
+        padding: 0vh 0 0vh 0;
+    }
+
+    .main-manual-two {
+        display: flex;
+        
+    }
+
+    .main-manual-text-div {
+        height: 130vh;
+    }
+
+    main {
+        height: 330vh;
+    }
 }
