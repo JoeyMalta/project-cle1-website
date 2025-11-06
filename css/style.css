@@ -119,6 +119,13 @@ header {
 
 }
 
+.crickitImg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
 .gripbuddyIntro {
     display: flex;
     flex-direction: column;
